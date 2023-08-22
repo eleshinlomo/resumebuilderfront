@@ -1,6 +1,7 @@
 import React from 'react'
-import Home from './components/Home'
-import About from './components/About'
+import Home from './pages/Home'
+import About from './pages/About'
+import {Link} from 'react-router-dom'
 
 
 const routes =  [
@@ -10,13 +11,13 @@ const routes =  [
    {
         name: 'Resume Builder',
         route: '/resumebuilder',
-        component: Home,
+        component: null,
     
    },
    {
     name: 'Resume Writing',
     route: '/resumewriting',
-    component: Home,
+    component: null,
 
 },
    {

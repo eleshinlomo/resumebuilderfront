@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar'
 import {Routes, Route, Navigate, useLocation} from 'react-router-dom'
-import Home from './components/Home';
+import Home from './pages/Home';
 import routes from './routes'
 
 
